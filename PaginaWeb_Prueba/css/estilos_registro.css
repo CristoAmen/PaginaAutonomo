@@ -1,0 +1,133 @@
+header{
+    height: 100vh;
+    background-image: linear-gradient(to top, rgba(48, 208, 208, 0.247) 0%, rgba(51, 8, 103, 0.253) 100%), url(../img/setup-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.menu-navegacion{
+    
+    text-decoration: none;
+    top: 0;
+    right: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:right; 
+    
+}
+
+.menu-navegacion a{
+    color:rgb(48, 208, 208);
+    text-decoration: none;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+      font-family: 'Open Sans', sans-serif;
+    height: 100vh; 
+    background-size: cover;
+    background: url(../img/setup-img.jpg) no-repeat center top
+    
+}
+
+
+.login-box{
+
+    width: 500px;
+    height: 440px;
+    background: rgb(51, 8, 104);
+    color:#30d0d0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 80px 30px;
+    border-radius: 5%;
+
+}
+
+.login-box input[type="submit"]{
+    transition-duration: 0.4s;
+    border:none;
+    outline: none;
+    height: 50px;
+    background:#00ffff;
+    border-radius: 20px;
+    color: #000;
+    font-size: 18px;
+}
+
+.login-box input:hover{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+.login-box .img_user{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+
+}
+
+.login-box h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+
+}
+
+
+
+.login-box label{
+    margin: 0%;
+    padding: 0;
+    font-weight: bold;
+    display: block;
+}
+
+.login-box input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.login-box input[type="text"], 
+.login-box input[type="password"]{
+    border: none;
+    border-bottom: 1px solid#30d0d0;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#ffffff;
+    font-size: 16px;
+}
+
+
+
+
+.login-box a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color:#00ffff;
+}
+
+.login-box h3{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.login-box a:hover{
+   color: #fff;
+}
+
